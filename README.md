@@ -17,7 +17,7 @@ This repo is proudly sponsored by:
 
 ## Spiral
 
-### Converting same locations in spiral view (done automatically)
+### Converting same locations in spiral view (disabled by default)
 
 ![Spiral](https://raw.githubusercontent.com/venits/react-native-map-clustering/assets/assets/spider_lib.png)
 
@@ -90,7 +90,8 @@ export default App;
 | **mapRef(ref)**                             | Function              | () => {}                                     | Return reference to `react-native-maps` MapView component.                                                                                                                                                                      |
 | **clusteringEnabled**                       | Bool                  | true                                         | Set true to enable and false to disable clustering.                                                                                                                                                                             |
 | **renderCluster**                           | Function              | undefined                                    | Enables you to render custom cluster with custom styles and logic.                                                                                                                                                              |
-| **spiderLineColor**                           | String              | #FF0000                                    | Enables you to set color of spider line which joins spiral location with center location.                                                                                                                                                              |
+| **spiderLineColor**                         | String                | #FF0000                                      | Enables you to set color of spider line which joins spiral location with center location.                                                                                                                                         |
+| **spiralViewEnabled**                       | Bool                  | false                                        | Enables spiral view mode                                                                                                                                                                                                            |
 
 ## Support
 
